@@ -54,4 +54,12 @@ function cambiarxd1()
   document.getElementById('xd3').src="images/M5.jpg";
 }
 
+function changeImageIn() {
+    document.getElementById("gif").src = "images/gif-2.gif";
+}
+
+function changeImageOut() {
+    document.getElementById("gif").src = "images/gif-1.gif";
+}
+
 
