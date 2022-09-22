@@ -1,0 +1,10 @@
+----------------------- Integrantes ----------------------- 
+Juan Carlos Avila Flores (Project Manager) - Página de Inicio
+Alejandro Paul Flores Ayala - Página de Deportes
+Chris Alan Apaza Aguilar - Noticias Destacadas
+Diego Cesar Alvarado Callisaya - Página de Contacto
+Alan Wiler Zarate Chino - Noticias Generales
+
+
+------------------------- GitHub ------------------------- 
+https://github.com/JuancaJcA/Tecno-Web-5
