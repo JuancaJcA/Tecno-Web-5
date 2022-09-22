@@ -4,7 +4,7 @@
 
     <head>
         <!-- !TTTLE -->
-        <title>Gamer Store</title>
+        <title>Periódico</title>
         <!-- !META -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,6 +13,7 @@
         <!-- !LINK -->
         <link rel="icon" href="images/icon.png" />
         <link rel="stylesheet" href="css/body.css" />
+        <link rel="stylesheet" href="css/deportes.css" />
         <link rel="stylesheet" href="css/cards.css" />
         <link rel="stylesheet" href="css/forms.css" />
         <link rel="stylesheet" href="css/footer.css" />
@@ -20,9 +21,13 @@
         <link rel="stylesheet" href="css/buttons.css" />
         <link rel="stylesheet" href="css/carousel.css" />
         <link rel="stylesheet" href="css/social-media.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
         <!-- !GOOGLE FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
             rel="stylesheet"
@@ -51,14 +56,99 @@
         </ul>
         <center>
             <!-- !Title -->
-            <h1 class="title-1">¡Queremos conocerte!</h1>
+            <h1 class="title-1" style="font-family:'Bungee Spice';font-size: 80px;">DEPORTES</h1>
             <!-- !Text-1 -->
-            <p class="text-1-center">
-                Llena los siguientes datos para que puedas realizar compras en
-                la tienda:
-            </p>
-        <!-- !Footer -->
-        <div style="height: 150px"></div>
+  
+        </center>
+
+
+
+
+        <div class="xd">
+            <article class="articulo" id="cuadrado1" onMouseOver="pintar('#ef233c')" onMouseOut="pintar('#ffff')">
+                <center>
+                    <img src="images/cr71.jpg" class="imag" id="xd" onMouseOver="cambiar()" onMouseOut="cambiar1()">
+    
+                </center>
+            </article>
+    
+            <article class="articulo" id="cuadrado2" onMouseOver="pintar1('#edede9')" onMouseOut="pintar1('#ffff')">
+                <h5>Premier League</h5>
+                <h3 style="color: RED;">La dura nueva realidad de Cristiano Ronaldo</h3><br>
+                <p style="font-size: 15px;" id="tit">Una búsqueda a la desesperada que no acabó con final feliz. Cristiano Ronaldo no dejó Old Trafford este verano y no jugará la Champions League... por ahora. Todavía queda el mercado de invierno y cualquier cosa puede ocurrir, está claro... pero por ahora se debe contentar con la Europa League, competición a la que volvía 20 años después (la jugó con el Sporting CP en 2002) y en la que empezó como titular ante la Real Sociedad.    </p>
+            </article>
+    
+        </div>
+
+        <div class="xd">
+
+    
+            <article class="articulo" id="cuadrado3" onMouseOver="pintar2('#edede9')" onMouseOut="pintar2('#ffff')">
+                <h5>Ligue 1</h5>
+                <h3 style="color: #034078;">Messi hace líder al PSG</h3><br>
+                <p style="font-size: 15px;">Triunfo ajustado del PSG (0-1) en un partido menos brillante de la 'MNM', al que le bastó con un chispazo de Messi y un buen planteamiento defensivo para llevarse los tres puntos de Lyon, Lacazette a la cabeza pero no fue suficiente Arrancó el choque con el PSG controlando el tempo del mismo, dominando la posesión. Y muy poco tardaría el tridente ofensivo parisino en hacer de las suyas, cinco minutos para ser exactos. Tras una larga posesión visitante, el balón le caería a Messi, que no perdonó, a pase de Neymar.</p>
+            </article>
+
+            <article class="articulo" id="cuadrado4" onMouseOver="pintar3('#034078')" onMouseOut="pintar3('#ffff')">
+                <center>
+                    <img src="images/messi.webp" class="imag" id="xd1" onMouseOver="cambiar2()" onMouseOut="cambiar3()">
+    
+                </center>
+            </article>
+    
+        </div>
+
+
+
+
+
+
+
+
+
+        
+    <div class="container" style="background-color: #ffffff;">
+    
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <br>
+            <h2>Deportes en el mundo</h2>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/f.jpg" class="card-img-top"  style="height: 200px" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Flamengo</h5>
+                <p class="card-text">El Flamengo se consagra campeón de la Libertadores tras ganar a River Plate por 2-1.</p>
+              </div>
+         </div>
+        </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/t.jpg" class="card-img-top" style="height: 200px" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">The Strongest</h5>
+                <p class="card-text text-justify">El Tigre se consagra campeón de la Liga Boliviana tras ganar a Bolivar en casa por 2-1.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card" style="width: 18rem;">
+            <img src="images/c.webp" class="card-img-top"  style="height: 200px" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Manchester city</h5>
+                <p class="card-text text-justify">El Manchester City se muestra muy emocionado por su nuevo fichaje de Eling Haland ¨El Androide¨</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+
+
         <footer class="sticky-footer">
             <p>
                 <a href="https://www.ucb.edu.bo/"
@@ -67,5 +157,25 @@
                 <br />Tecnologías Web
             </p>
         </footer>
+        <script>
+                //Funcion que cambia el color de los enlaces a naranja al pasar por encima
+
+            document.getElementById("tit").addEventListener("mouseover", porencima);
+            document.getElementById("tit").addEventListener("mouseout", alquitar);
+            
+            
+            
+            function porencima() {
+            
+                document.getElementById("tit").style.color = "orange";
+            
+            }
+            
+            function alquitar() {
+            
+                document.getElementById("tit").style.color = "brown";
+            
+            }
+        </script>
     </body>
 </html>
