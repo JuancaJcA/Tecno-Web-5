@@ -4,14 +4,14 @@
 
     <head>
         <!-- !TTTLE -->
-        <title>Gamer Store</title>
+        <title>Periódico</title>
         <!-- !META -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="SIS-241 TECNOLOGÍAS WEB [Par. 1]" />
         <meta name="author" content="Juan Carlos Avila Flores" />
         <!-- !LINK -->
-        <link rel="icon" href="images/icon.png" />
+        <link rel="icon" href="images/logo.png" />
         <link rel="stylesheet" href="css/body.css" />
         <link rel="stylesheet" href="css/cards.css" />
         <link rel="stylesheet" href="css/forms.css" />
@@ -23,21 +23,23 @@
         <!-- !GOOGLE FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
-            rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
         <!-- !SCRIPT -->
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript" src="js/carousel.js"></script>
         <!-- !Icons -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <!-- !BOOTSTRAP -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script type="text/javascript" src="js/destacadas.js"></script>
+
     </head>
 
     <!--* BODY -->
+
     <body class="bodyWhite">
         <!-- !Navbar -->
         <ul class="topnav">
@@ -51,21 +53,99 @@
         </ul>
         <center>
             <!-- !Title -->
-            <h1 class="title-1">¡Queremos conocerte!</h1>
+            <h1 class="title-1">¡Avisos Clasificados!</h1>
             <!-- !Text-1 -->
             <p class="text-1-center">
-                Llena los siguientes datos para que puedas realizar compras en
-                la tienda:
+                Vehículos
             </p>
+
+            <!-- !Cards -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="container">
+                                <h4><b>VENDO CHEVROLET</b></h4>
+                                <p>Tracker 2019</p>
+                            </div>
+                            <button class="button-1" onclick="aviso(1)"> Ver mas
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="container">
+                                <h4><b>VENDO TOYOTA</b></h4>
+                                <p>Toyota Carib 1996</p>
+                            </div>
+                            <button class="button-1" onclick="aviso(2)"> Ver mas
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="container">
+                                <h4><b>VENDO NISSAN</b></h4>
+                                <p> Nissan Patrol 2022
+                                </p>
+                            </div>
+                            <button class="button-1" onclick="aviso(3)"> Ver mas
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-1-center">
+                Inmuebles
+            </p>
+
+            <!-- !Cards -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="container">
+                                <h4><b>VENDO CHEVROLET</b></h4>
+                                <p>Tracker 2019</p>
+                            </div>
+                            <button class="button-1" onclick="aviso(1)"> Ver mas
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="container">
+                                <h4><b>VENDO TOYOTA</b></h4>
+                                <p>Toyota Carib 1996</p>
+                            </div>
+                            <button class="button-1" onclick="aviso(2)"> Ver mas
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="container">
+                                <h4><b>VENDO NISSAN</b></h4>
+                                <p> Nissan Patrol 2022
+                                </p>
+                            </div>
+                            <button class="button-1" onclick="aviso(3)"> Ver mas
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+
         <!-- !Footer -->
         <div style="height: 150px"></div>
         <footer class="sticky-footer">
             <p>
-                <a href="https://www.ucb.edu.bo/"
-                    >Universidad Católica Boliviana "San Pablo"</a
-                >
+                <a href="https://www.ucb.edu.bo/">Universidad Católica Boliviana "San Pablo"</a>
                 <br />Tecnologías Web
             </p>
         </footer>
     </body>
+
 </html>
